@@ -4,6 +4,7 @@ import {Routes, Route, Link} from 'react-router-dom';
 export default function Header() {
   return (
     <>
+    {/* Here I just added few links to know how route works */}
       <Link to="/account">Account</Link>
       <Link to="/login">Login</Link>
       <Link to="/login">Register</Link>
