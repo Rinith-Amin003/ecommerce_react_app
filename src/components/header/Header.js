@@ -9,7 +9,7 @@ export default function Header() {
       <Link to="/login">Login</Link>
       <Link to="/login">Register</Link>
       <Link to="/cart">Cart</Link>
-      <Link to="blog">Blog</Link>
+      <Link to="/blog">Blog</Link>
     <Routes>
         <Route index path="/"></Route>
         <Route path="/account" element={"account"}></Route>
