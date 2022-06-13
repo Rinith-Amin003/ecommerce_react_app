@@ -11,6 +11,7 @@ export default function Header() {
       <Link to="/cart">Cart</Link>
       <Link to="/blog">Blog</Link>
     <Routes>
+      
         <Route index path="/"></Route>
         <Route path="/account" element={"account"}></Route>
         <Route path="/login" element={"Login"}></Route>
